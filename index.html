@@ -1,19 +1,33 @@
 <!DOCTYPE html> <!--Code basic in web development-->
 <html lang="en">
-<center>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullstack JRD</title> <!--ทุกครั้งที่เปลี่ยนแปลงอย่าลืม Save file ด้วย-->
     <link rel="stylesheet" href="styles.css"> <!--ตำแหน่ง link ให้เอาไว้ที่ <head> และไฟล์ style.css ต้องเหมือนกับที่เราตั้งชื่อไฟล์ไว้-->
         <!--สามารถ copy code .css สวยๆในเว็บต่างๆได้เลยคล้ายๆ template-->
+        <style>
+            body {
+        background-color: #fff9dd;;
+        }
+           hr {
+        background-color:white;
+        }
+    
+        </style>
+
 </head>
-<body>
-    <img src="Profile.jpg" alt="" style="width: 20%; height: auto;"> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น-->
-    <h1>Tantawan Prasongdai</h1>
+<body style = "background-color: #FEF9E1;">
+    <img src="Profile.jpg" alt="" style="width: 20%; height: auto;"> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
+
+    <hr style="border-style: dashed double none; height: 20px;"> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
+
+    <h1 style = "background-color: #E5D0AC;">Tantawan Prasongdai</h1> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
     <a href = "https://www.we-stride.com/"> Transfer to IT job </a>
     <br>
     <a href="contact.html">Contact</a>
+
+    <hr style="border-style: dashed double none; height: 20px;"> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
 
     <h3>Work experience</h3>
     <!--<ul> 
@@ -24,8 +38,8 @@
     </ul>--> <!--กรณีอยากเก็บ code ที่เขียนไว้โดยไม่ได้โชว์ขึ้นเว็บ-->
 
 <!--ทำให้ list นำเสนอออกมาเป็น table-->
-
-    <table> <!--<table border="3"> border ไม่ใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น -->
+<center> <!--ไม่นิยมใช้-->
+    <table style = "background-color: black;"> <!--<table border="3"> border หรือคำสั่ง style ไม่ใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!! -->
         <thead> <!--thead = table head-->
             <tr>
                 <th>
@@ -43,7 +57,7 @@
         </tr>
         <tr>
             <td>2024-2025</td>
-            <td>Learner development to it jobs</td>
+            <td>A learner who is developing to IT jobs</td>
         </tr>
         <tr>
             <td>2024-2024</td>
@@ -54,7 +68,6 @@
             <td>Operation data center staff</td>
         </tr>
     </table>
-
-</body>
 </center>
+</body>
 </html>

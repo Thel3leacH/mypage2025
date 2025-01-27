@@ -1,16 +1,28 @@
 img{
-  border: 2px solid rgb(95 97 110);
-  border-radius: 200px;
-  width: 10em;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(234, 90, 6);
 }
 
 body{
   background-color: slateblue;
   font-family: 'Trebuchet MS';
   color: black;
-  text-align: center;
+} 
+
+hr{
+  border-style: none; 
+  border-top-style: dotted;
+  border-color: rgb(255, 111, 0);
+  border-width:5px;
+  width: 100%;
 }
 
+h3{
+  border: 2px solid rgb(209, 37, 37);
+  width: 150px;
+}
 
 table {
     border-collapse: separate;
@@ -22,7 +34,7 @@ table {
   
   thead,
   tfoot {
-    background-color: rgb(243, 236, 22);
+    background-color: rgb(255, 145, 0);
   }
   
   th,

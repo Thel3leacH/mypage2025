@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullstack JRD</title> <!--ทุกครั้งที่เปลี่ยนแปลงอย่าลืม Save file ด้วย-->
-    <link rel="stylesheet" href="styles.css"> <!--ตำแหน่ง link ให้เอาไว้ที่ <head> และไฟล์ style.css ต้องเหมือนกับที่เราตั้งชื่อไฟล์ไว้-->
+    <link rel="stylesheet" href="styles.css"> <!--ตำแหน่ง link ให้เอาไว้ที่ <head> และไฟล์ style.css ต้องชื่อเหมือนกับที่เราตั้งชื่อไฟล์ไว้-->
         <!--สามารถ copy code .css สวยๆในเว็บต่างๆได้เลยคล้ายๆ template-->
-        <style>
+
+        <!--<style>
             body {
         background-color: #fff9dd;;
         }
@@ -14,35 +15,11 @@
         background-color:white;
         }
     
-        </style>
+        </style>-->
 
 </head>
 
-<table cellspacing="5" style="border: none; background-color: #FEF9E1;">
-    <tr>
-      <td style="border: none; background-color: #FEF9E1;">
-        <img src="Profile.jpg" alt="" style="width: 250px; height: 250px;"></td>
-      <td style="border: none; background-color: #FEF9E1;">    
-        <h1>Tantawan Prasongdai</h1>
-        <p>
-            <strong>Role : Software tester</strong><br>
-            <strong>Form : ABCDE Company</strong><br>
-        </p>
-          <p><strong><a href="https://www.we-stride.com/">Bootcamp for learning</a></strong></p></td>
-    </tr>
-  </table>
-
-  <h4>I'm interested of infotmation technology from list below</h4>
-  <ul>
-    <li>AI</li>
-    <li>API</li>
-    <li>Manual tester</li>
-    <li>Automation tester</li>
-    <li>SQL</li>
-    <li>Framworks</li>
-  </ul>
-
-<body style = "background-color: #FEF9E1;">
+<body>
     <!--<img src="Profile.jpg" alt="" style="width: 250px; height: 250px;"> style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
 
     <!--<h1>Tantawan Prasongdai</h1>
@@ -51,9 +28,34 @@
         From: Bootcamp
     </p> style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
 
+    <table class="table1">
+        <tr>
+          <td class="table1">
+            <img src="Profile.jpg" alt="" ></td>
+          <td class="table1">    
+            <h1>Tantawan Prasongdai</h1>
+            <p>
+                <strong>Role : Software tester</strong><br>
+                <strong>Form : ABCDE Company</strong><br>
+            </p>
+              <button class="westride"><strong><a href="https://www.we-stride.com/">Bootcamp for learning</a></strong></button></td>
+        </tr>
+      </table>
+
+      <h4>I'm interested of information technology(IT) from list below</h4>
+  <ul>
+    <li>AI</li>
+    <li>API</li>
+    <li>Manual tester</li>
+    <li>Automation tester</li>
+    <li>SQL</li>
+    <li>Framworks</li>
+  </ul>
+    
+
     <hr> <!--style ไม่นิยมใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!!-->
 
-    <h3>Work experience</h3>
+    <h3 class="work">Work experience</h3>
     <!--<ul> 
         <li>2025 - Present : Software tester big company</li>
         <li>2025 - 2025 : Learner development to it jobs</li>
@@ -63,7 +65,7 @@
 
 <!--ทำให้ list นำเสนอออกมาเป็น table-->
 <!--<center> ไม่นิยมใช้-->
-    <table style = "background-color: black; padding-right: 10px;"> <!--<table border="3"> border หรือคำสั่ง style ไม่ใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!! -->
+    <table class="table2"> <!--<table border="3"> border หรือคำสั่ง style ไม่ใช้ใน html ต้องใช้ในไฟล์ .css เท่านั้น!! -->
         <thead> <!--thead = table head-->
             <tr>
                 <th>
@@ -93,10 +95,10 @@
         </tr>
     </table>
 
-    <h3 style="width: 50px;">Skills</h3>
+    <h3 class="skills">Skills</h3>
 
-    <table style = "background-color: black; padding-left: 10px;"> 
-        <thead style="background-color: rgb(255, 0, 64);"> 
+    <table class="table3"> 
+        <thead class="head1"> 
             <tr>
                 <th>
                 Code language
@@ -128,13 +130,13 @@
 <!--</center>-->
 
 <hr>
-<h3 style="width: 400px;">What is IT company job you want to work ?</h3>
+<h3 class="job">What is IT company job you want to work ?</h3>
 <ol>
     <li>Agoda</li>
     <li>True</li>
     <li>Wongnai</li>
     <li>Doppio</li>
-    <li>Srichad</li>
+    <li>Srichand</li>
     <li>Inet</li>
 </ol>
 

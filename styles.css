@@ -1,12 +1,13 @@
+/* สัญลักษณ์นี้คือการ comment code ในไฟล์ .css [Key ลัด : Ctrl+/ ] */
 img{
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   border: 2px solid rgb(234, 90, 6);
 }
 
 body{
-  background-color: slateblue;
+  background-color: #FEF9E1;
   font-family: 'Trebuchet MS';
   color: black;
 } 
@@ -19,19 +20,83 @@ hr{
   width: 100%;
 }
 
-h3{
+h1{
+  color: red;
+}
+
+h1:hover{
+  color: gold;
+}
+
+.westride{
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  /* border: 2px solid firebrick; */
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.westride:hover{
+  background-color: bisque;
+}
+
+.skills{
+  border: 2px solid rgb(209, 37, 37);
+  width: 50px;
+}
+
+.head1{
+  background-color: rgb(255, 0, 64);
+}
+
+.work{
   border: 2px solid rgb(209, 37, 37);
   width: 150px;
 }
 
-table {
+.job{
+  border: 2px solid rgb(209, 37, 37);
+  width: 400px;
+}
+
+/* table {
     border-collapse: separate;
     border: 2px solid rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
-  }
+  } */
   
+.table1 {
+  border-collapse: separate;
+  border: none; background-color: #FEF9E1;
+  /* border: 2px solid rgb(0, 0, 0); */
+  font-family: sans-serif;
+  /* font-size: 0.8rem; */
+  letter-spacing: 1px;
+  }
+
+.table2{
+  background-color: black; padding-right: 10px;
+  border-collapse: separate;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}  
+
+.table3{
+  background-color: black; padding-left: 10px;
+  border-collapse: separate;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
   thead,
   tfoot {
     background-color: rgb(255, 145, 0);
@@ -58,4 +123,5 @@ table {
   tfoot td {
     font-weight: bold;
   }
+
   
